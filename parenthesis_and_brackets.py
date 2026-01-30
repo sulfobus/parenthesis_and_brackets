@@ -2,8 +2,6 @@
 # Enter a string containing parentheses and brackets
 print("Enter a string containing parentheses and brackets, i.e. \"([]())\" or \"([)]\" (default ([)])")
 # read input from user
-user_input = "([)]"
-
 user_input = input().strip()
 if user_input:
     input = user_input
